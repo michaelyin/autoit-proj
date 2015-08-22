@@ -26,12 +26,12 @@ EndFunc
 Func startOcr()
 	; Display the current working directory.
     ;MsgBox($MB_SYSTEMMODAL, "", "The current working directory: " & @CRLF & @WorkingDir)
-    ; Set the working directory C:\demo, where I put the HvwsDemo.exe
-	FileChangeDir("C:\Applications\hanvon_2015_08_20_Demo")
+    ; Set the working directory C:\demo, where I put the HxxxDemo.exe
+	FileChangeDir("C:\Applications\hxxxxxx_2015_08_20_Demo")
     ; Display the working directory after setting it to the windows directory.
     ;MsgBox($MB_SYSTEMMODAL, "", "The current working directory: " & @CRLF & @WorkingDir)
 
-   run("HvwsDemo.exe", "", @SW_MAXIMIZE)
+   run("HxxxDemo.exe", "", @SW_MAXIMIZE)
 EndFunc   ;==>Example
 
 Opt("MouseCoordMode", 0)
@@ -93,7 +93,7 @@ While 1
 
 WEnd
 
-$file = FileOpen("C:\Users\Xuecheng\result.txt",  258)
+$file = FileOpen("C:\Users\Xxxxx\result.txt",  258)
 
 FileWrite($file, $clip)
 FileClose($file)
